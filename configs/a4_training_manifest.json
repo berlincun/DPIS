@@ -1,0 +1,18 @@
+{
+  "mode": "pid_delay_ramp_scale",
+  "definition": {
+    "tev_losses": true,
+    "delay": true,
+    "ramp": true,
+    "scaling": true,
+    "ema": false
+  },
+  "source": "/root/rivermind-data/dynamic025_no_delay/code/train_pix2pix_turbo.py",
+  "source_sha256": "61156115dd097e3601e008a415ba594169d87177eb55d1e37263aa66cd9dbe08",
+  "output": "/root/rivermind-data/dynamic025_no_delay/code/cumulative_ablation_after_pid_trainers/train_cumulative_pid_delay_ramp_scale.py",
+  "output_sha256": "c6f2932fa8255dea3a1767ad2b9dc40870733fafea023ca65911783315fbc86d",
+  "seed": 42,
+  "phys_start_step": 3000,
+  "phys_warmup_steps": 2500,
+  "phys_max_factor": 0.25
+}
